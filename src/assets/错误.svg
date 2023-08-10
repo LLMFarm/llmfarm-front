@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="Chat+" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="PC端" transform="translate(-229.000000, -473.000000)" stroke="#FFFFFF">
+            <g id="选中聊天" transform="translate(6.000000, 456.000000)">
+                <g id="编组" transform="translate(224.000000, 18.000000)">
+                    <line x1="8" y1="0" x2="0" y2="8" id="路径"></line>
+                    <line x1="0" y1="0" x2="8" y2="8" id="路径"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

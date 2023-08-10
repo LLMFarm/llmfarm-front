@@ -1,0 +1,66 @@
+{
+  "flow": {
+    "name": "工作流 - 审批"
+  },
+  "flowPermission": [],
+  "nodes": [
+    {
+      "type": 0,
+      "id": 0,
+      "name": "发起人",
+      "props": {},
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": 1,
+      "name": "审批人",
+      "props": {
+        "type": ""
+      },
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": 2,
+      "name": "抄送人",
+      "props": {},
+      "next": 3
+    },
+    {
+      "id": 3,
+      "type": 4,
+      "name": "路由",
+      "props": {},
+      "conditions": [4, 5],
+      "conditionNodes": [],
+      "next": 6
+    },
+    {
+      "id": 4,
+      "type": 3,
+      "name": "条件1",
+      "props": {},
+      "next": 7
+    },
+    {
+      "id": 5,
+      "type": 3,
+      "name": "条件2",
+      "props": {}
+    },
+    {
+      "id": 6,
+      "type": 2,
+      "name": "抄送人",
+      "props": {},
+      "next": 0
+    },
+    {
+      "id": 7,
+      "type": 1,
+      "name": "审批人",
+      "props": {}
+    }
+  ]
+}
