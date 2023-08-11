@@ -25,7 +25,6 @@
             <template #title>
               <span>{{ $t("admin") }}</span>
             </template>
-            <!-- <UserOutlined style="font-size: 18px; margin-bottom: 20px" @click="toBackManagement" /> -->
             <img
               :src="manage"
               style="height: 18px; width: 18px; font-size: 18px; margin-bottom: 20px"
@@ -33,15 +32,15 @@
             />
           </a-tooltip>
         </template>
-        <SettingOutlined style="font-size: 18px; margin-bottom: 20px" @click="popShow = !popShow" />
-        <div class="user-setting">
+        <!-- <SettingOutlined style="font-size: 18px; margin-bottom: 20px" @click="popShow = !popShow" /> -->
+        <!-- <div class="user-setting">
           <a-tooltip placement="right">
             <template #title>
               <span>{{ userName }}</span>
             </template>
             <img class="avatar-img" :src="avatar" />
           </a-tooltip>
-        </div>
+        </div> -->
       </div>
     </div>
     <ChatList @selectChat="select" v-if="routerName == 'chat'" />

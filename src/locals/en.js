@@ -116,7 +116,7 @@ export default {
   // 更新
   update: 'Update',
   // 企业机密，请勿外泄
-  markText: 'Corporate secrets',
+  markText: 'LLMFarm',
   // 不能为空
   notEmpty: '{msg} cannot be empty',
   // 支付

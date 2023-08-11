@@ -4,7 +4,7 @@
 let watermark = {}
 let id = '1.23452384164.123412415'
 
-  let setWatermark = (str, str1) => {
+let setWatermark = (str, str1) => {
   if (document.getElementById(id) !== null) {
     document.body.removeChild(document.getElementById(id))
   }
@@ -21,7 +21,7 @@ let id = '1.23452384164.123412415'
   cans.textAlign = 'center' // 设置文本内容的当前对齐方式
   cans.textBaseline = 'Middle' // 设置在绘制文本时使用的当前文本基线
   cans.globalAlpha = 1// 透明度
-  cans.fillText(str, can.width / 3, can.height / 2) // 在画布上绘制填色的文本（输出的文本，开始绘制文本的X坐标位置，开始绘制文本的Y坐标位置）
+  // cans.fillText(str, can.width / 3, can.height / 2) // 在画布上绘制填色的文本（输出的文本，开始绘制文本的X坐标位置，开始绘制文本的Y坐标位置）
   cans.fillText(str1, can.width / 3, can.height / 2.5) // 根据需求可添加多行水印，在方法中添加str1
 
   let div = document.createElement('div')
@@ -57,7 +57,7 @@ let setWatermarkTryChain = (str, str1, className) => {
   cans.textAlign = 'center' // 设置文本内容的当前对齐方式
   cans.textBaseline = 'Middle' // 设置在绘制文本时使用的当前文本基线
   cans.globalAlpha = 1// 透明度
-  cans.fillText(str, can.width * 4, can.height / 2) // 在画布上绘制填色的文本（输出的文本，开始绘制文本的X坐标位置，开始绘制文本的Y坐标位置）
+  // cans.fillText(str, can.width * 4, can.height / 2) // 在画布上绘制填色的文本（输出的文本，开始绘制文本的X坐标位置，开始绘制文本的Y坐标位置）
   cans.fillText(str1, can.width / 3, can.height / 2.5) // 根据需求可添加多行水印，在方法中添加str1
   // document.createElement('div')
   let div = document.getElementsByClassName(className)[0]
@@ -93,7 +93,7 @@ watermark.set = (str, str1) => {
 }
 
 watermark.setTryChain = (str, str1, className) => {
-  setWatermarkTryChain(str, str1 ,className)
+  setWatermarkTryChain(str, str1, className)
 }
 
 watermark.remove = () => {

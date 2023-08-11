@@ -58,7 +58,7 @@ export default {
   offShelf: '下架',
   reset: '重置',
   modify: '修改',
-  markText: '企业机密，请勿外泄',
+  markText: 'LLMFarm',
   notEmpty: '{msg}不能为空',
   pay: '支付',
   apiError: '接口异常',

@@ -76,20 +76,23 @@ const routes = [
   {
     path: "/login",
     name: "login",
-    component: () =>
-      import(/* webpackChunkName: "chat" */ "@/view/login/Login.vue"),
+    redirect: "/chatbot/chat",
+    // component: () =>
+    //   import(/* webpackChunkName: "chat" */ "@/view/login/Login.vue"),
   },
   {
     path: "/register",
     name: "register",
-    component: () =>
-      import(/* webpackChunkName: "chat" */ "@/view/login/Register.vue"),
+    redirect: "/chatbot/chat",
+    // component: () =>
+    //   import(/* webpackChunkName: "chat" */ "@/view/login/Register.vue"),
   },
   {
     path: "/forgotpass",
     name: "forgotpass",
-    component: () =>
-      import(/* webpackChunkName: "chat" */ "@/view/login/Forgotpass.vue"),
+    redirect: "/chatbot/chat",
+    // component: () =>
+    //   import(/* webpackChunkName: "chat" */ "@/view/login/Forgotpass.vue"),
   },
   {
     path: "/chainflow/:chainId?",

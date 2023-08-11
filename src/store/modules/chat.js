@@ -15,7 +15,7 @@ export const useChatStore = defineStore('chat', {
       { id: "单", name: "单轮对话", round: t('chat.singleRound') },
       { id: "连", name: "连续对话", round: t('chat.multiRound') },
     ],
-    defaultDialog: {}
+    defaultDialog: { id: "单", name: "单轮对话" }
   }),
   actions: {
     updateOpenContext(open) {
@@ -38,15 +38,15 @@ export const useChatStore = defineStore('chat', {
       let conversation = this.conversations.find(item => item.id === this.selectedConversation.id) || {};
       console.log(conversation, 'updateUserDailyUsageList');
       if (conversation.contextType) return;
-      list?.forEach(item => {
-        // if (item.modelName === "gpt-3.5-turbo") {
-        if (item.dailyTokens >= 100000) {
-          this.defaultDialog = { id: "连", name: "连续对话" }
-        } else {
-          this.defaultDialog = { id: "单", name: "单轮对话" }
-        }
-        // }
-      })
+      // list?.forEach(item => {
+      //   // if (item.modelName === "gpt-3.5-turbo") {
+      //   if (item.dailyTokens >= 100000) {
+      //     this.defaultDialog = { id: "连", name: "连续对话" }
+      //   } else {
+      //     this.defaultDialog = { id: "单", name: "单轮对话" }
+      //   }
+      //   // }
+      // })
     },
     //更新defaultDialog
     updateDefaultDialog(dialog) {
