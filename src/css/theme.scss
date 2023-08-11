@@ -1,0 +1,220 @@
+:root {
+  --color-background-light: #ffffff;
+  --color-text-light: #343541;
+  --color-background-image-light: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13.94%, #fff 54.73%);
+
+  --color-background-dark: rgb(46, 46, 57);
+  --color-text-dark: #d1d5d8;
+  --color-background-image-dark: linear-gradient(180deg, rgba(53, 55, 64, 0), #353740 58.85%)
+}
+
+
+.theme-light {
+  background-color: var(--color-background-light);
+  color: var(--color-text-light);
+  background-image: var(--color-background-image-light);
+
+  .el-overlay {
+    background-color: hsla(240, 9%, 59%, .9) !important
+  }
+
+  ;
+
+  --el-dialog-bg-color:#FFFFFF !important;
+  --el-dialog-width:20rem !important;
+}
+
+
+.theme-dark {
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
+  background-image: var(--color-background-image-dark);
+
+  .el-overlay {
+    background-color: rgba(52, 53, 65, 0.9) !important
+  }
+
+  ;
+
+  .el-dialog__title {
+    color: #d9d9E3 !important
+  }
+
+  ;
+
+  .el-dialog__body {
+    color: #C5C5D2;
+  }
+
+  ;
+
+  .el-input__inner {
+    color: #ECECF1 !important;
+
+  }
+
+  .el-input__wrapper {
+    background-color: #202123 !important;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .2) inset !important;
+  }
+
+  ;
+
+  .guide-list .guide-item {
+    color: #d1d5d8 !important;
+    background-color: rgb(57, 57, 67) !important;
+  }
+
+  --el-dialog-width:20rem !important;
+  --el-dialog-bg-color:#202123 !important;
+  --el-button-bg-color:red !important;
+
+  .dialog-item {
+    border-bottom: rgba(32, 33, 35.5) 1px solid !important;
+  }
+
+  .dialog-item-user {
+    background-color: rgb(52, 53, 65) !important;
+
+
+  }
+
+  .dialog-item-bot {
+    background-color: rgb(68, 70, 84) !important;
+
+  }
+
+}
+
+.theme-dark-dialog-user {
+  color: #ECECF1 !important;
+}
+
+.theme-dark-dialog-bot {
+  color: #d1d5d8 !important;
+}
+
+
+.theme-lightblue {
+  background-color: var(--color-background-lightblue);
+  color: var(--color-text-lightblue);
+  background-image: var(--color-background-image-light);
+
+  --color-background-lightblue: #e8f4fd;
+  --color-text-lightblue: #333;
+  --color-background-image-lightblue: linear-gradient(180deg, #e8f4fd, #d4e9fa);
+
+
+  .guide-list .guide-item {
+    color: #333 !important;
+    background-color: rgb(212, 233, 250) !important;
+  }
+
+  --el-dialog-width: 20rem !important;
+
+
+  .dialog-item {
+    border-bottom: rgba(21, 61, 91, 0.5) 1px solid !important;
+  }
+
+  .dialog-item-user {
+    background-color: #FFF !important;
+  }
+
+  .dialog-item-bot {
+    background-color: #fff !important;
+
+    background-image: url(../assets/sky.png) !important;
+    ;
+  }
+}
+
+.theme-lightblue-dialog-user {
+  color: #333 !important;
+}
+
+.theme-lightblue-dialog-bot {
+  color: #fff !important;
+}
+
+
+.theme-star {
+  background-color: var(--color-background-dark);
+  color: var(--color-text-dark);
+  background-image: var(--color-background-image-dark);
+
+  .el-overlay {
+    background-color: rgba(52, 53, 65, 0.9) !important
+  }
+
+  ;
+
+  .el-input__inner {
+    color: #FFFFFF !important;
+  }
+
+  ;
+
+  .el-dialog__title {
+    color: #d9d9E3 !important
+  }
+
+  ;
+
+  .el-dialog__body {
+    color: #C5C5D2;
+  }
+
+  ;
+
+  .el-input__inner {
+    color: #ECECF1 !important;
+
+  }
+
+  .el-input__wrapper {
+    background-color: #202123 !important;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .2) inset !important;
+  }
+
+  ;
+
+  .guide-list .guide-item {
+    color: #d1d5d8 !important;
+    background-color: rgb(57, 57, 67) !important;
+  }
+
+  --el-dialog-width:20rem !important;
+  --el-dialog-bg-color:#202123 !important;
+  --el-button-bg-color:red !important;
+
+  .dialog-item {
+    border-bottom: rgba(32, 33, 35.5) 1px solid !important;
+  }
+
+  .dialog-item-user {
+    background-color: rgb(52, 53, 65) !important;
+    background-image: url(../assets/star.jpg) !important;
+
+
+  }
+
+  .dialog-item-bot {
+    background-color: rgb(68, 70, 84) !important;
+    background-image: url(../assets/star.jpg) !important;
+
+  }
+
+}
+
+.theme-star-dialog-user {
+  color: #ECECF1 !important;
+}
+
+.theme-star-dialog-bot {
+  color: #d1d5d8 !important;
+}
+
+.theme-star-background {
+  background-image: url(../assets/star.jpg) !important;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="144px" viewBox="0 0 149 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>箭头</title>
+    <g id="Hexdo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC端-新手引导" transform="translate(-1848.000000, -234.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="箭头" transform="translate(1849.053834, 236.000000)">
+                <path d="M0,140.944883 C28.0436873,76.5614588 53.5446646,42.409064 76.5029318,38.4876988 C99.461199,34.5663335 110.510895,52.3834329 109.65202,91.938997 C105.790295,116.400048 99.8090428,127.32774 91.7082633,124.722072 C86.619269,123.085164 80.4452018,99.9349533 91.7082633,64.8345081 C96.1520911,50.9856683 113.197706,30.9344506 142.845108,4.68085491" id="路径-3" stroke-dasharray="8,2"></path>
+                <line x1="128.946166" y1="0" x2="145.946166" y2="1" id="直线-2" stroke-linecap="square" stroke-dasharray="8,4"></line>
+                <line x1="145.946166" y1="19" x2="146.446166" y2="1.5" id="直线-2" stroke-linecap="square" stroke-dasharray="8,4"></line>
+            </g>
+        </g>
+    </g>
+</svg>
