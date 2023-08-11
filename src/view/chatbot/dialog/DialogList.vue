@@ -331,12 +331,12 @@ const askQuestion = async (event) => {
   }
   // }
 
-  let getChainConfigRes = await getChainConfig(props.probation ? props.tryChain.botId : defaultModel.value.id);
-  if (getChainConfigRes && !props.probation) {
-    //打开配置弹窗
-    visibleBotConfig.value = true;
-    return;
-  }
+  // let getChainConfigRes = await getChainConfig(props.probation ? props.tryChain.botId : defaultModel.value.id);
+  // if (getChainConfigRes && !props.probation) {
+  //   //打开配置弹窗
+  //   visibleBotConfig.value = true;
+  //   return;
+  // }
 
   let pending = false;
   let messageAI = {};
